@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF1F1"
+    tools:context=".deskripsibata">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginEnd="37dp"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:id="@+id/ivdetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#605B61"
+                    app:srcCompat="@drawable/bata" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="20dp"
+                app:cardBackgroundColor="#EFF2F8">
+
+                <LinearLayout
+                    android:id="@+id/tvharga"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvjudul"
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="10sp"
+                        android:text="BATA RINGAN HEBEL AAC PREMIUM"
+                        android:textColor="#0B0A0A"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tvhargadetail"
+                        android:layout_width="315dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="10sp"
+                        android:text=" Rp450.000"
+                        android:textColor="#CD0808"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/ivlogotoko"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10sp"
+                            android:layout_marginTop="10sp"
+                            android:layout_marginRight="10sp"
+                            android:layout_marginBottom="10sp"
+                            android:layout_weight="1"
+                            android:background="#ffffff"
+                            app:srcCompat="@drawable/profileicon" />
+
+                        <TextView
+                            android:id="@+id/tvnamatoko"
+                            android:layout_width="237dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:layout_weight="1"
+                            android:text="UD JAYA SEMPURNA"
+                            android:textColor="#070707"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="116dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginBottom="20dp"
+                app:cardBackgroundColor="#EFF2F8">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvrincianproduk"
+                        android:layout_width="138dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="10sp"
+                        android:text="RINCIAN PRODUK"
+                        android:textColor="#090808" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30sp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:text="Kirim pesan" />
+
+                <Button
+                    android:id="@+id/btnpesansekarang"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F60303"
+                    android:onClick="btnpesansekarang"
+                    android:text="Pesan sekarang" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

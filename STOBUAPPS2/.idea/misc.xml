@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/drawable/selector.xml" value="0.2203125" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/layout/activity_about.xml" value="0.33" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/layout/activity_beranda.xml" value="0.22" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/layout/activity_buatakun.xml" value="0.25" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/layout/activity_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/layout/activity_deskripsibata.xml" value="0.31061806656101426" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/layout/activity_favoritsaya.xml" value="0.25" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/layout/activity_formpemesanan.xml" value="0.33" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/layout/activity_homepage.xml" value="0.22" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/layout/activity_kodeottp.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/layout/activity_lupapassword.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/layout/activity_screenawal.xml" value="0.33" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/layout/activity_sudahpunyaakunlogin.xml" value="0.25" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/layout/activity_upload.xml" value="0.25" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/layout/fragment_keranjang.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/layout/itembarang.xml" value="0.33" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/menu/menu_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/menu/menu_navigation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/My Asus/AndroidStudioProjects/STOBUAPPS2/app/src/main/res/menu/search_menu.xml" value="0.1574074074074074" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
